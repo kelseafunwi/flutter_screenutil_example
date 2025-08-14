@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
               height: 150.h, // Scaled height
               decoration: BoxDecoration(
                 color: Colors.blue,
-                borderRadius: BorderRadius.circular(12.r), // Scaled radius
+                borderRadius: BorderRadius.circular(12).r, // Scaled radius
               ),
               child: Center(
                 child: Text(
@@ -35,7 +35,7 @@ class HomePage extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 20.h), // Scaled spacing
+            20.verticalSpace,
             // Row Example
             Row(
               children: [
@@ -52,7 +52,7 @@ class HomePage extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox(width: 10.w),
+                10.horizontalSpace,
                 Expanded(
                   flex: 1,
                   child: Container(
@@ -69,7 +69,7 @@ class HomePage extends StatelessWidget {
               ],
             ),
 
-            SizedBox(height: 20.h),
+            20.verticalSpace,
 
             // Responsive Button
             SizedBox(
